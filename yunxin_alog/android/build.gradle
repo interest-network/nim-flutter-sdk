@@ -4,19 +4,17 @@ version '1.0-SNAPSHOT'
 buildscript {
     repositories {
         google()
-        jcenter()
         mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:3.5.4'
     }
 }
 
 rootProject.allprojects {
     repositories {
         google()
-        jcenter()
         mavenCentral()
     }
 }
@@ -28,7 +26,12 @@ android {
         namespace("com.netease.yunxin.alog.yunxin_alog")
     }
 
-    compileSdkVersion 29
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    compileSdkVersion 34
     defaultConfig {
         minSdkVersion 16
     }
@@ -38,7 +41,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.netease.yunxin.kit:alog:1.0.8'
+    implementation 'com.netease.yunxin.kit:alog:1.1.0'
 }
 
 
