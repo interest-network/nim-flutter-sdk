@@ -13,24 +13,33 @@ dependencies:
   flutter:
     sdk: flutter
   nim_core_platform_interface:
-#     '>=1.7.7 <1.8.0'
-    path: ../nim_core_platform_interface
+    git:
+      url: https://github.com/interest-network/nim-flutter-sdk.git
+      ref: main
+      path: nim_core_platform_interface
   nim_core_windows:
-#    ^1.0.8
-    path: ../nim_core_windows
+    git:
+      url: https://github.com/interest-network/nim-flutter-sdk.git
+      ref: main
+      path: nim_core_windows
   nim_core_macos:
-#    ^1.0.8
-    path: ../nim_core_macos
+    git:
+      url: https://github.com/interest-network/nim-flutter-sdk.git
+      ref: main
+      path: nim_core_macos
   nim_core_web:
-#   ^1.0.2
-     path: ../nim_core_web
+    git:
+      url: https://github.com/interest-network/nim-flutter-sdk.git
+      ref: main
+      path: nim_core_web
   path_provider: ^2.0.2
-  # yunxin_base: ^0.1.0-rc.0
   universal_io: ^2.0.4
   yunxin_alog:
-    path: ../yunxin_alog
+    git:
+      url: https://github.com/interest-network/nim-flutter-sdk.git
+      ref: main
+      path: yunxin_alog
   hawk_meta: ^0.0.1
-#    path: ../../auto_test/hawk_meta
 
 dev_dependencies:
   flutter_test:
