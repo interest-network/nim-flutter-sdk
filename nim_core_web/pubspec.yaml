@@ -16,7 +16,10 @@ dependencies:
     sdk: flutter
 #  nim_core_platform_interface: ^1.4.1
   nim_core_platform_interface:
-    path: ../nim_core_platform_interface
+    git:
+      url: https://github.com/interest-network/nim-flutter-sdk.git
+      ref: main
+      path: nim_core_platform_interface
 
 
   # plugin_platform_interface: ^2.0.2
