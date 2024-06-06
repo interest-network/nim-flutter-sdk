@@ -15,29 +15,14 @@ dependencies:
   nim_core_platform_interface:
     git:
       url: https://github.com/interest-network/nim-flutter-sdk.git
-      ref: main
+      ref: master
       path: nim_core_platform_interface
-  nim_core_windows:
-    git:
-      url: https://github.com/interest-network/nim-flutter-sdk.git
-      ref: main
-      path: nim_core_windows
-  nim_core_macos:
-    git:
-      url: https://github.com/interest-network/nim-flutter-sdk.git
-      ref: main
-      path: nim_core_macos
-  nim_core_web:
-    git:
-      url: https://github.com/interest-network/nim-flutter-sdk.git
-      ref: main
-      path: nim_core_web
   path_provider: ^2.0.2
   universal_io: ^2.0.4
   yunxin_alog:
     git:
       url: https://github.com/interest-network/nim-flutter-sdk.git
-      ref: main
+      ref: master
       path: yunxin_alog
   hawk_meta: ^0.0.1
 
@@ -64,12 +49,6 @@ flutter:
         pluginClass: NimCorePlugin
       ios:
         pluginClass: NimCorePlugin
-      windows:
-        default_package: nim_core_windows
-      macos:
-        default_package: nim_core_macos
-      web:
-        default_package: nim_core_web
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
